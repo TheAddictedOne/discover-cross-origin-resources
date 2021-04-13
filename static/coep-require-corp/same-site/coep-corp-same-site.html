@@ -3,9 +3,46 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="/coep.css">
   </head>
   <body>
-    <h1>Cross-Origin-Resource-Policy: same-site</h1>
-    <h1>Cross-Origin-Embedder-Policy: require-corp</h1>
+    <header>
+      <div>Cross-Origin-Embedder-Policy: require-corp</div>
+      <div>Cross-Origin-Resource-Policy: same-site</div>
+    </header>
+
+    <!-- Scripts -->
+    <table>
+      <tbody>
+        <tr>
+          <td>No headers</td>
+          <td>
+            <span>-</span>
+            <script src="/no-headers.js"></script>
+          </td>
+        </tr>
+        <tr>
+          <td>CORP: same-site</td>
+          <td>
+            <span>-</span>
+            <script src="/corp-same-site.js"></script>
+          </td>
+        </tr>
+        <tr>
+          <td>CORP: same-domain</td>
+          <td>
+            <span>-</span>
+            <script src="/corp-same-domain.js"></script>
+          </td>
+        </tr>
+        <tr>
+          <td>CORP: cross-origin</td>
+          <td>
+            <span>-</span>
+            <script src="/corp-cross-origin.js"></script>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>

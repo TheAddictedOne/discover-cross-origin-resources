@@ -1,3 +1,4 @@
+// CORP: cross-origin
 (function() {
   const self = document.currentScript
   const url = self.src

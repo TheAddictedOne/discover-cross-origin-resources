@@ -1,3 +1,4 @@
+// CORP: same-site
 (function() {
   const self = document.currentScript
   const url = self.src

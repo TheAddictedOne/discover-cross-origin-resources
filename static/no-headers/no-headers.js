@@ -1,3 +1,4 @@
+// No-headers
 (function() {
   const self = document.currentScript
   const url = self.src
@@ -7,7 +8,7 @@
   self.parentNode.textContent = `${filename} loaded`
 
   const sab = new SharedArrayBuffer()
-  
+
   const start = window.performance.now()
   setTimeout(() => console.log('Elapsed time:', window.performance.now() - start), 1000)
 })()

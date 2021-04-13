@@ -4,7 +4,6 @@
   const url = self.src
   const filename = url.substring(url.lastIndexOf('/') + 1);
 
-
   self.parentNode.textContent = `${filename} loaded`
 
   const sab = new SharedArrayBuffer()

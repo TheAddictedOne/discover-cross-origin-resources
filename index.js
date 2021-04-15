@@ -8,6 +8,10 @@ const CORP_SAMEDOMAIN = 'same-domain'
 const CORP_CROSSORIGIN = 'cross-origin'
 const COEP = 'Cross-Origin-Embedder-Policy'
 const COEP_REQUIRECORP = 'require-corp'
+// const COOP = 'Cross-Origin-Opener-Policy'
+// const COOP_UNSAFENONE = 'unsafe-none'
+// const COOP_ALLOWPOPUPS = 'same-origin-allow-popups'
+// const COOP_SAMEORIGIN = 'same-origin'
 
 app.use(express.static('static'))
 

@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <style>
+      body {
+        font-family: monospace;
+        font-size: 16px;
+      }
+    </style>
   </head>
   <body>
     <section>
@@ -16,7 +21,7 @@
       </ul>
     </section>
     <section>
-      <h1>CORP: same-site</h1>
+      <h1>Cross-Origin-Resource-Policy: same-site</h1>
       <ul>
         <li><a href="/pikachu.png">pikachu.png</a></li>
         <li><a href="/corp-same-site.js">corp-same-site.js</a></li>
@@ -24,7 +29,7 @@
       </ul>
     </section>
     <section>
-      <h1>CORP: same-domain</h1>
+      <h1>Cross-Origin-Resource-Policy: same-domain</h1>
       <ul>
         <li><a href="/raichu.png">raichu.png</a></li>
         <li><a href="/corp-same-domain.js">corp-same-domain.js</a></li>
@@ -32,7 +37,7 @@
       </ul>
     </section>
     <section>
-      <h1>CORP: cross-origin</h1>
+      <h1>Cross-Origin-Resource-Policy: cross-origin</h1>
       <ul>
         <li><a href="/posipi.png">posipi.png</a></li>
         <li><a href="/corp-cross-origin.js">corp-cross-origin.js</a></li>
@@ -40,7 +45,7 @@
       </ul>
     </section>
     <section>
-      <h1>COEP: require-corp</h1>
+      <h1>Cross-Origin-Embedder-Policy: require-corp</h1>
       <ul>
         <li><a href="/coep-no-corp.html">coep-no-corp.html</a></li>
         <li><a href="/coep-corp-same-site.html">coep-corp-same-site.html</a></li>

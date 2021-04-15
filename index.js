@@ -49,4 +49,4 @@ app.use(express.static('static/coep-require-corp/cross-origin', {
   }
 }))
 
-app.listen(PORT, () => console.log(`Example app listening at http://localhost:${PORT}`))
+app.listen(PORT, () => console.log(`Listening at http://localhost:${PORT}`))
